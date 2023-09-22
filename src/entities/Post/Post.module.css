@@ -1,0 +1,21 @@
+.wrapper {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.wrapper:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.body {
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
