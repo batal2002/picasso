@@ -1,4 +1,4 @@
-import './styles/index.css'
+import './styles/styles.css'
 import {Routing} from "../pages";
 
 const App = () => {
