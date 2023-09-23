@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {postAPI} from "../../shared/api/postAPI";
-import Post from "../../entities/Post/Post";
-import Preloader from "../../shared/ui/Preloader/Preloader";
+import Post from "../../entities/Post";
+import Preloader from "../../shared/ui/Preloader";
 import {useObserver} from "../../shared/lib/hooks/useObserver";
 
 const PostsList = () => {

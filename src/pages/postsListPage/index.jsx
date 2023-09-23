@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./styles.module.css";
-import PostsList from "../../widgets/PostsList/PostsList";
+import PostsList from "../../widgets/PostsList";
 
 const postListPage = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import LinkTo from "../../shared/ui/LinkTo/LinkTo";
-import s from './Post.module.css'
+import LinkTo from "../../shared/ui/LinkTo";
+import s from './index.module.css'
 
 const Post = ({id, title, body}) => {
 

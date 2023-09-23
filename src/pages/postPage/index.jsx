@@ -1,8 +1,8 @@
 import React from 'react';
 import {useParams} from "react-router-dom";
 import {postAPI} from "../../shared/api/postAPI";
-import PostInfo from "../../entities/PostInfo/PostInfo";
-import Preloader from "../../shared/ui/Preloader/Preloader";
+import PostInfo from "../../entities/PostInfo";
+import Preloader from "../../shared/ui/Preloader";
 
 const PostPage = () => {
     const id = useParams().id

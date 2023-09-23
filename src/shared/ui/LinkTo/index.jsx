@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import s from './LinkTo.module.css'
+import s from './styles.module.css'
 
 const LinkTo = ({children, link}) => {
     return (
