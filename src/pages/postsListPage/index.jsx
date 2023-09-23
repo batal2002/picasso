@@ -2,7 +2,7 @@ import React from 'react';
 import s from "./styles.module.css";
 import PostsList from "../../widgets/PostsList";
 
-const postListPage = () => {
+const PostListPage = () => {
     return (
         <div className={s.wrapper}>
             <PostsList/>
@@ -10,4 +10,4 @@ const postListPage = () => {
     );
 };
 
-export default postListPage;
+export default PostListPage;
